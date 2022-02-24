@@ -1,0 +1,67 @@
+*{margin: 0px; padding: 0px;}
+ol, ul{list-style: none;}
+a{text-decoration: none; color:#ffffff;}
+body{font-size: 15px;background-color: #edf4fa;}
+
+#header{background-color: skyblue;}
+#header_inner{margin: 0px auto; width: 1320px; padding: 20px; height: 50px;}
+#nav .logo{float: left;}
+#nav ul{float: right;}
+#nav ul li{float: left; padding: 10px 100px; font-size: 24px; font-family: "제주고딕";}
+#nav ul li a:hover {color: royalblue;} 
+
+.mb img{width: 100%;}
+
+#md_inner{width: 1320px; margin: 0px auto;}
+#md_inner h1{font-size: 48px; text-align: center; padding-top: 100px;}
+
+#md_inner #md_menu_line1>div{float: left; text-align: center;}
+#md_menu_line1{height: 410px;}
+#md_menu_line1 #md_menu{padding: 0px 11px;}
+#md_menu_line1 #md_menu p{font-size: 25px; padding-bottom: 50px; padding-top: 10px;}
+
+#md_inner #md_menu_line2>div{float: left; text-align: center;}
+#md_menu_line2{height: 410px;}
+#md_menu_line2 #md_menu{padding: 0px 11px;}
+#md_menu_line2 #md_menu p{font-size: 25px; padding-bottom: 50px; padding-top: 10px;}
+
+#md_inner #md_menu_line3>div{float: left; text-align: center;}
+#md_menu_line3{height: 700px;}
+#md_menu_line3 #md_menu{padding: 0px 11px;}
+#md_menu_line3 #md_menu p{font-size: 25px; padding-bottom: 50px; padding-top: 10px;}
+
+#this_month{text-align: center; font-size: 48px; padding: 50px 0px;}
+#bean{width: 100%; background-color: skyblue;}
+#bean_inner{margin: 0px auto; width: 1320px;}
+#bean_inner #bean_background{height: 437px;  text-align: center;}
+#bean_inner #bean_background #bean_img1{float: left; padding-top: 60px;}
+#bean_inner #bean_background #bean_img1 p{font-size: 25px;}
+#bean_inner #bean_background #bean_img2 .coffeebean{padding: 0px 122px; padding-bottom: 60px;}
+
+#bean_ex p{text-align: center; font-size: 33px; padding-top: 20px;}
+#bean_ex h2{font-size: 45px; text-align: center; padding-top: 20px; padding-bottom: 100px;}
+#bean_ex h2 .apple{color: #eb1d24;}
+#bean_ex h2 .peach{color: #ff8787;}
+#bean_ex h2 .wallnut{color: #a2843c;}
+#bean_ex h2 .chocolate{color: #463d27;}
+#bean_ex h2 .brown_sugar{color: #a2843c;}
+#bean_ex h2 .pine_nut{color: #a2843c;}
+#bean_ex h2 .dark_chocolate{color: #463d27;}
+#bean_ex h2 .smoke{color: #888888;}
+#bean_ex h2 .black_pepper{color: #504834;}
+#bean_ex h2 .mocha{color: #a2843c;}
+#bean_ex h2 .grape_fruit{color:#f94848;}
+#bean_ex h2 .orange{color: #ff9600;}
+#bean_ex h2 .water_melon{color: #53a95f;}
+#bean_ex h2 .cherry{color: #a20000;}
+
+#footer{background-color: darkgray;}
+#footer_inner{margin: 0px auto; width: 1320px; height: 160px;}
+#footer_inner #menual #menual_inner li{float: left; padding: 10px 25px; border-bottom: 2px solid #777;}
+#footer_inner #menual_inner{float: left; padding-top: 5px; padding-left: 65px;}
+#footer_inner #menual_inner li a{font-size: 18px;}
+#footer_inner #menual_inner2{float: right; padding-top: 10px; padding-right: 180px;}
+#footer_inner #menual_inner2 li{font-size: 19px; color: #ffffff;}
+#footer_inner p{clear: both; font-size: 16px; padding-left: 65px;}
+
+#button{background-image: url(images/top_button.png); background-repeat: no-repeat; font-size: 28px; color: #ffffff; position: fixed; right: 210px; bottom: 200px; width: 65px; height: 65px; text-align: center; line-height: 60px;}

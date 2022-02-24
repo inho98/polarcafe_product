@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polar Cafe</title>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="sub4.css">
+    <link href="images/POLAR_con.png" rel="icon" type="image/png" sizes="32x32" >
+</head>
+<body>
+    <div id="header">
+        <div id="header_inner">
+            <div id="nav">
+                <h1 class="logo"><a href="#"><img src="images/logo.png" alt="logo"></a></h1>
+                <ul>
+                    <li><a href="#">BRAND</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">CLASS</a></li>
+                    <li><a href="#">PRODUCT</a></li>
+                </ul>
+            </div><!--nav E-->
+        </div><!--header_inner E-->
+    </div><!--header E-->
+    <div class="swiper mb">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="images/slide1.png" alt="slide1">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slide2.png" alt="slide2">
+            </div>
+            <div class="swiper-slide">
+                <img src="images/slide3.png" alt="slide3">
+            </div>
+        </div>
+        <div class="swiper-button-next mb_next"></div>
+        <div class="swiper-button-prev mb_prev"></div>
+        <!--도트를 추가하고 싶을때-->
+        <div class="swiper-pagination mb_pag"></div>
+    </div><!--mb E-->
+    <script>
+        var swiper = new Swiper(".mb", {
+          navigation: {
+               nextEl: ".swiper-button-next",
+               prevEl: ".swiper-button-prev",
+              },//화살표를 작동하게 하는 옵션.
+          pagination: {
+              el: ".swiper-pagination",
+              clickable: true,},
+              autoplay: {
+            delay: 4000,
+             disableOnInteraction: false,},
+              loop: true,});
+    </script>
+    <div id="md">
+        <div id="md_inner">
+            <h1>MD상품</h1>
+            <div id="md_menu_line1">
+                <div id="md_menu">
+                    <a href="#"><img src="images/01.Bracelet.png" alt="후원팔찌"></a>
+                    <p>
+                        Save The Polar Bear<br>
+                        북극곰 후원 팔찌
+                    </p>
+                </div><!--md_menu E-->
+                <div id="md_menu">
+                    <a href="#"><img src="images/02.Necklace.png" alt="목걸이"></a>
+                    <p>
+                        Polar<br>
+                        목걸이
+                    </p>
+                </div><!--md_menu E-->
+                <div id="md_menu">
+                    <a href="#"><img src="images/03.Eco_bag.png" alt="에코백"></a>
+                    <p>
+                        Polar<br>
+                        에코백
+                    </p>
+                </div><!--md_menu E-->
+                <div id="md_menu">
+                    <a href="#"><img src="images/04.Tumbler.png" alt="텀블러"></a>
+                    <p>
+                        Polar<br>
+                        텀블러
+                    </p>
+                </div><!--md_menu E-->
+            </div><!--md_menu_line1 E-->
+            <div id="md_menu_line2">
+                <div id="md_menu">
+                    <a href="#"><img src="images/05.Mug_cup.png" alt="머그컵"></a>
+                    <p>
+                        Polar cafe<br>
+                        머그컵
+                    </p>
+                </div><!--md_menu E-->
+                <div id="md_menu">
+                    <a href="#"><img src="images/06.Esspresso_mug.png" alt="에스프레소 잔"></a>
+                    <p>
+                        Polar cafe<br>
+                        에스프레소 잔
+                    </p>
+                </div><!--md_menu E-->
+                <div id="md_menu">
+                    <a href="#"><img src="images/07.Badge.png" alt="뱃지"></a>
+                    <p>
+                        Polar<br>
+                        뱃지
+                    </p>
+                </div><!--md_menu E-->
+                <div id="md_menu">
+                    <a href="#"><img src="images/08.Candle.png" alt="캔들"></a>
+                    <p>
+                        Polar<br>
+                        캔들
+                    </p>
+                </div><!--md_menu E-->
+            </div><!--md_menu_line2 E-->
+            <div id="md_menu_line3">
+                <div id="md_menu">
+                    <a href="#"><img src="images/09.Diary(A).png" alt="다이어리"></a>
+                    <p>
+                        Polar<br>
+                        다이어리(A타입)
+                    </p>
+                </div><!--md_menu E-->
+                <div id="md_menu">
+                    <a href="#"><img src="images/10.Diary(B).png" alt="다이어리"></a>
+                    <p>
+                        Polar<br>
+                        다이어리(B타입)
+                    </p>
+                </div><!--md_menu E-->
+                <div id="md_menu">
+                    <a href="#"><img src="images/11.The product is being prepared(A).png" alt="상품을준비중입니다."></a>
+                    <p>
+                        준비중입니다.
+                    </p>
+                </div><!--md_menu E-->
+                <div id="md_menu">
+                    <a href="#"><img src="images/12.The product is being prepared(B).png" alt="상품을준비중입니다."></a>
+                    <p>
+                        준비중입니다.
+                    </p>
+                </div><!--md_menu E-->
+            </div><!--md_menu_line3 E-->
+        </div><!--md_inner E-->
+    </div><!--md E-->
+    <h1 id="this_month">이달의 원두</h1>
+    <div id="bean">
+        <div id="bean_inner">
+            <div id="bean_background">
+                <div id="bean_img1">
+                    <img src="images/flag_rwanda.png" alt="르완다 국기">
+                    <p>
+                        생산지 :르완다 뷔샤자<br>
+                        가공법 : 워시드
+                    </p>
+                </div>
+                <div id="bean_img2">
+                    <img class="coffeebean" src="images/coffee_bean1.png" alt="커피 콩">
+                    <img src="images/aroma_wheel1.png" alt="아로마 휠">
+                </div>
+            </div><!--bear_background E-->
+        </div><!--bean_inner E-->
+    </div><!--bean E-->
+    <div id="bean_ex">
+        <p>
+            르완다에 뷔샤자 에서 생산되었으며, 향미와 맛은 풍부한 편이며,산미는 보통 정도 이고,<br>
+            바디감은 가벼운 편입니다. 후미는 짧아 여운은 적은 편이며,<br>
+            깊은 맛과향미를 좋아하신 다면 추천드립니다.
+        </p>
+        <h2>
+            <span class="apple">사과,</span>
+            <span class="peach">복숭아,</span>
+            <span class="wallnut">호두,</span>
+            <span class="chocolate">초콜렛,</span>
+            <span class="brown_sugar">브라운슈가</span>
+        </h2>
+    </div><!--bean_ex E-->
+    <div id="bean">
+        <div id="bean_inner">
+            <div id="bean_background">
+                <div id="bean_img1">
+                    <img src="images/flag_gwatemala.png" alt="과테말라 국기">
+                    <p>
+                        생산지 : 과테말라<br>
+                        가공법 : 내추럴
+                    </p>
+                </div>
+                <div id="bean_img2">
+                    <img class="coffeebean" src="images/coffee_bean2.png" alt="커피 콩">
+                    <img src="images/aroma_wheel2.png" alt="아로마 휠">
+                </div>
+            </div><!--bear_background E-->
+        </div><!--bean_inner E-->
+    </div><!--bean E-->
+    <div id="bean_ex">
+        <p>
+            과테말라  에서 생산이 되었으며 무거운 바디감과 긴 여운이 특징인 원두입니다.<br>
+            산미는 적으나 향미와 후미가 매우 길어 가벼운 맛보단 중후한 맛을 좋아하시는 분께 추천 드립니다.
+        </p>
+        <h2>
+            <span class="Pine_nut">잣,</span>
+            <span class="dark_chocolate">다크초콜렛,</span>
+            <span class="smoke">훈제향,</span>
+            <span class="black_pepper">후추,</span>
+            <span class="mocha">모카</span>
+        </h2>
+    </div><!--bean_ex E-->
+    <div id="bean">
+        <div id="bean_inner">
+            <div id="bean_background">
+                <div id="bean_img1">
+                    <img src="images/flag_kenya.png" alt="케냐 국기">
+                    <p>
+                        생산지 : 과테말라<br>
+                        가공법 : 내추럴
+                    </p>
+                </div>
+                <div id="bean_img2">
+                    <img class="coffeebean" src="images/coffee_bean3.png" alt="커피 콩">
+                    <img src="images/aroma_wheel3.png" alt="아로마 휠">
+                </div>
+            </div><!--bear_background E-->
+        </div><!--bean_inner E-->
+    </div><!--bean E-->
+    <div id="bean_ex">
+        <p>
+            케냐AA원두 입니다 바디감, 향미, 후미, 산미등 여러 맛들이 조화를 이루고 있는 원두 입니다.<br>
+            묵직한 바디감에 반해 높은 산미가 있어 과일향이 강하게 어필을 합니다.<br>
+            커피를 입문하시는 분들과 산미를 강하게 맛보고 싶으신 분들께 추천드립니다. 
+        </p>
+        <h2>
+            <span class="grape_fruit">자몽,</span>
+            <span class="orange">오렌지,</span>
+            <span class="water_melon">수박,</span>
+            <span class="cherry">체리,</span>
+            <span class="apple">사과</span>
+        </h2>
+    </div><!--bean_ex E-->
+    <div id="footer">
+        <div id="footer_inner">
+            <div id="menual">
+              <ul id="menual_inner">
+                  <li><a href="#">이용약관</a></li>
+                  <li><a href="#">개인정보처리방침</a></li>
+                  <li><a href="#">법적고지</a></li>
+                  <li><a href="#">사업자 정보확인</a></li>
+              </ul>
+              <ul id="menual_inner2">
+                  <li>
+                      위치 : 제주 제주시 애월 일주서로 6111 Polar Cafe<br>
+                      매장 번호 : 070-2577-2777
+                  </li>
+              </ul>
+            </div><!--menual E-->
+            <p>
+                사업자 : 정인호 | 이메일 : vmfleja00@naver.com | 사업자 등록번호 04- 45211-775675<br>
+                Copyright ⓒ 2027 A Polar Cafe. Co.,LTD.All Rights Reserved<br>
+                Follow Your Heart
+            </p>
+        </div><!--footer_inner E-->
+    </div><!--footer E-->
+    <div id="button">
+        <a href="#header">TOP</a>
+    </div><!--button E-->
+</body>
+</html>
