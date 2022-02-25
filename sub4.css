@@ -1,7 +1,7 @@
 *{margin: 0px; padding: 0px;}
 ol, ul{list-style: none;}
 a{text-decoration: none; color:#ffffff;}
-body{font-size: 15px;background-color: #edf4fa;}
+body{font-size: 15px;background-color: #edf4fa; font-family: "나눔스퀘어";}
 
 #header{background-color: skyblue;}
 #header_inner{margin: 0px auto; width: 1320px; padding: 20px; height: 50px;}
